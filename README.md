@@ -1,5 +1,8 @@
+SpecFlo / Ocaramba / NUnit / Autofac Boilerplate
+================================================
+
 What?
-=====
+-----
 
 This is a .Net / Visual Studio project intended to get you up and running with
 Selenium WebDriver End-To-End (E2E) tests without the hassle of getting all the
@@ -12,24 +15,23 @@ It leverages [SpecFlow](SpecFlow),
 testing, and [Autofac](https://autofac.org/) for IoC / Dependency Injection.
 
 Who?
-====
+----
 
 This is intended for software developers who want to write automated E2E tests,
 as well as software testers who are interested in trying their hand at test
 automation.
 
 Why?
-====
+----
 
 At my work, I had to spin up a new integration test project that worked entirely
 within Visual Studio, and it took me much longer than I’d expected. That kind of
 setup could dissuade testers from testing, and I didn’t want that to happen.
 
 How?
-====
+----
 
-Extensions
-----------
+### Extensions
 
 For best results, I recommend the following VS plugins:
 
@@ -47,8 +49,7 @@ For best results, I recommend the following VS plugins:
 -   [NUnit3 Test
     Adapter](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.NUnit3TestAdapter)
 
-Installation
-------------
+### Installation
 
 The easiest way to install this is to download the zipped up version and drop it
 in your existing repo.
@@ -68,8 +69,7 @@ make sure the demo test runs, and make corrections where necessary.`
 
 `Finally, git init and link the new remote to wherever you want it.`
 
-Where to start?
----------------
+### Where to start?
 
 Build the project. You may have to do some nuget finagling for it to build, but
 everything is available in the default nuget source.
@@ -80,13 +80,12 @@ close.
 
 If all of that works, you’re ready to build your first test.
 
-Building your own tests
------------------------
+### Building your own tests
 
 TODO
 
 FAQ
-===
+---
 
 -   Q: Why are all the dependencies outdated? There are new versions of almost
     all of these, you know.

@@ -83,12 +83,3 @@ If all of that works, you’re ready to build your first test.
 ### Building your own tests
 
 TODO
-
-FAQ
----
-
--   Q: Why are all the dependencies outdated? There are new versions of almost
-    all of these, you know.
-
-    -   A: The dependencies listed are what I know to work with the SpecFlow
-        plugin. As that’s updated, this should be updated as well. (Hopefully)

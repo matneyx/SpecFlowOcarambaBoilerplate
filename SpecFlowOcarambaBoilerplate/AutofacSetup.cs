@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using Autofac;
 using SpecFlow.Autofac;
-using SpecFlowOcarambaBoilerplate.Pages;
 using TechTalk.SpecFlow;
 
 namespace SpecFlowOcarambaBoilerplate
@@ -16,13 +15,14 @@ namespace SpecFlowOcarambaBoilerplate
             var builder = new ContainerBuilder();
 
             builder.RegisterType<IntegrationTestSetup>();
-            builder.RegisterTypes(typeof(AutofacSetup).Assembly.GetTypes().Where(t => Attribute.IsDefined(t, typeof(BindingAttribute))).ToArray()).SingleInstance();
-            
+            builder.RegisterTypes(typeof(AutofacSetup).Assembly.GetTypes()
+                .Where(t => Attribute.IsDefined(t, typeof(BindingAttribute))).ToArray()).SingleInstance();
+
             // ***************************************
             // Register your types here for injection
             // ***************************************
 
-            builder.RegisterType<Google>();
+            builder.RegisterType<Pages.Google>();
 
             return builder;
         }

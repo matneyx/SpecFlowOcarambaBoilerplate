@@ -83,13 +83,8 @@
     <Reference Include="OcarambaLite, Version=3.2.10.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OcarambaLite.3.2.10\lib\net45\OcarambaLite.dll</HintPath>
     </Reference>
-    <Reference Include="Should, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Should-DotNetStandard.1.0.0\lib\net45\Should.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Should.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Should-DotNetStandard.1.0.0\lib\net45\Should.Core.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Shouldly, Version=3.0.2.0, Culture=neutral, PublicKeyToken=6042cbcb05cbc941, processorArchitecture=MSIL">
+      <HintPath>..\packages\Shouldly.3.0.2\lib\net451\Shouldly.dll</HintPath>
     </Reference>
     <Reference Include="SpecFlow.Autofac.SpecFlowPlugin, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
       <HintPath>..\packages\SpecFlow.Autofac.3.4.8\lib\net461\SpecFlow.Autofac.SpecFlowPlugin.dll</HintPath>

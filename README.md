@@ -8,7 +8,7 @@ This is a .Net / Visual Studio project intended to get you up and running with
 Selenium WebDriver End-To-End (E2E) tests without the hassle of getting all the
 components working together.
 
-It leverages [SpecFlow](SpecFlow),
+It leverages [SpecFlow](https://specflow.org/),
 [Ocaramba](https://github.com/ObjectivityLtd/Ocaramba), and
 [NUnit](https://nunit.org/) for easy [Behavior Driven Development
 (BDD)](https://cucumber.io/docs/Behavior%20Driven%20Development%20(BDD))
